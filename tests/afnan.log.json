@@ -1,0 +1,156 @@
+{
+    "0": {
+        "address": 0,
+        "label": "Prog",
+        "type": "R",
+        "assembly": {
+            "opcode": "add",
+            "rs": "x2",
+            "rt": "x3",
+            "rd": "x1"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00010",
+            "rt": "00011",
+            "rd": "00001",
+            "shamt": "00000",
+            "funct": "100000"
+        },
+        "error": ""
+    },
+    "1": {
+        "address": 4,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "sub",
+            "rs": "x2",
+            "rt": "x3",
+            "rd": "x1"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00010",
+            "rt": "00011",
+            "rd": "00001",
+            "shamt": "00000",
+            "funct": "100010"
+        },
+        "error": ""
+    },
+    "2": {
+        "address": 8,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "and",
+            "rs": "x2",
+            "rt": "x3",
+            "rd": "x1"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00010",
+            "rt": "00011",
+            "rd": "00001",
+            "shamt": "00000",
+            "funct": "100100"
+        },
+        "error": ""
+    },
+    "3": {
+        "address": 12,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "or",
+            "rs": "x2",
+            "rt": "x3",
+            "rd": "x1"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00010",
+            "rt": "00011",
+            "rd": "00001",
+            "shamt": "00000",
+            "funct": "100101"
+        },
+        "error": ""
+    },
+    "4": {
+        "address": 16,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "slt",
+            "rs": "x2",
+            "rt": "x3",
+            "rd": "x1"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00010",
+            "rt": "00011",
+            "rd": "00001",
+            "shamt": "00000",
+            "funct": "101010"
+        },
+        "error": ""
+    },
+    "5": {
+        "address": 20,
+        "label": "",
+        "type": "I",
+        "assembly": {
+            "opcode": "lw",
+            "rs": "x4",
+            "rt": "x1",
+            "immediate": "0"
+        },
+        "binary": {
+            "opcode": "100011",
+            "rs": "00100",
+            "rt": "00001",
+            "immediate": "0000000000000000"
+        },
+        "error": ""
+    },
+    "6": {
+        "address": 24,
+        "label": "",
+        "type": "I",
+        "assembly": {
+            "opcode": "sw",
+            "rs": "x4",
+            "rt": "x1",
+            "immediate": "4"
+        },
+        "binary": {
+            "opcode": "101011",
+            "rs": "00100",
+            "rt": "00001",
+            "immediate": "0000000000000100"
+        },
+        "error": ""
+    },
+    "7": {
+        "address": 28,
+        "label": "",
+        "type": "I",
+        "assembly": {
+            "opcode": "beq",
+            "rs": "x6",
+            "rt": "x5",
+            "immediate": "Prog"
+        },
+        "binary": {
+            "opcode": "000100",
+            "rs": "00110",
+            "rt": "00101",
+            "immediate": "1111111111111000"
+        },
+        "error": ""
+    }
+}

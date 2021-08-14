@@ -1,0 +1,362 @@
+{
+    "0": {
+        "address": 0,
+        "label": "R_type",
+        "type": "R",
+        "assembly": {
+            "opcode": "add",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100000"
+        },
+        "error": ""
+    },
+    "1": {
+        "address": 4,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "sub",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100010"
+        },
+        "error": ""
+    },
+    "2": {
+        "address": 8,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "mul",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100011"
+        },
+        "error": ""
+    },
+    "3": {
+        "address": 12,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "and",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100100"
+        },
+        "error": ""
+    },
+    "4": {
+        "address": 16,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "or",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100101"
+        },
+        "error": ""
+    },
+    "5": {
+        "address": 20,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "slt",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "101010"
+        },
+        "error": ""
+    },
+    "6": {
+        "address": 24,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "nor",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100110"
+        },
+        "error": ""
+    },
+    "7": {
+        "address": 28,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "xor",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "100111"
+        },
+        "error": ""
+    },
+    "8": {
+        "address": 32,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "sll",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "110000"
+        },
+        "error": ""
+    },
+    "9": {
+        "address": 36,
+        "label": "",
+        "type": "R",
+        "assembly": {
+            "opcode": "srl",
+            "rs": "x1",
+            "rt": "x2",
+            "rd": "x3"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00001",
+            "rt": "00010",
+            "rd": "00011",
+            "shamt": "00000",
+            "funct": "110001"
+        },
+        "error": ""
+    },
+    "10": {
+        "address": 40,
+        "label": "I_type",
+        "type": "I",
+        "assembly": {
+            "opcode": "addi",
+            "rs": "x1",
+            "rt": "x3",
+            "immediate": "5"
+        },
+        "binary": {
+            "opcode": "000001",
+            "rs": "00001",
+            "rt": "00011",
+            "immediate": "0000000000000101"
+        },
+        "error": ""
+    },
+    "11": {
+        "address": 44,
+        "label": "Load",
+        "type": "I",
+        "assembly": {
+            "opcode": "lw",
+            "rs": "x4",
+            "rt": "x3",
+            "immediate": "0"
+        },
+        "binary": {
+            "opcode": "100011",
+            "rs": "00100",
+            "rt": "00011",
+            "immediate": "0000000000000000"
+        },
+        "error": ""
+    },
+    "12": {
+        "address": 48,
+        "label": "Store",
+        "type": "I",
+        "assembly": {
+            "opcode": "sw",
+            "rs": "x4",
+            "rt": "x3",
+            "immediate": "4"
+        },
+        "binary": {
+            "opcode": "101011",
+            "rs": "00100",
+            "rt": "00011",
+            "immediate": "0000000000000100"
+        },
+        "error": ""
+    },
+    "13": {
+        "address": 52,
+        "label": "Br1",
+        "type": "I",
+        "assembly": {
+            "opcode": "beq",
+            "rs": "x6",
+            "rt": "x5",
+            "immediate": "Jump"
+        },
+        "binary": {
+            "opcode": "000100",
+            "rs": "00110",
+            "rt": "00101",
+            "immediate": "0000000000000100"
+        },
+        "error": ""
+    },
+    "14": {
+        "address": 56,
+        "label": "Br2",
+        "type": "I",
+        "assembly": {
+            "opcode": "bne",
+            "rs": "x6",
+            "rt": "x5",
+            "immediate": "Br4"
+        },
+        "binary": {
+            "opcode": "000101",
+            "rs": "00110",
+            "rt": "00101",
+            "immediate": "0000000000000010"
+        },
+        "error": ""
+    },
+    "15": {
+        "address": 60,
+        "label": "Br3",
+        "type": "R",
+        "assembly": {
+            "opcode": "add",
+            "rs": "x5",
+            "rt": "x0",
+            "rd": "x6"
+        },
+        "binary": {
+            "opcode": "000000",
+            "rs": "00101",
+            "rt": "00000",
+            "rd": "00110",
+            "shamt": "00000",
+            "funct": "100000"
+        },
+        "error": ""
+    },
+    "16": {
+        "address": 64,
+        "label": "",
+        "type": "I",
+        "assembly": {
+            "opcode": "bge",
+            "rs": "x0",
+            "rt": "x5",
+            "immediate": "Br1"
+        },
+        "binary": {
+            "opcode": "001001",
+            "rs": "00000",
+            "rt": "00101",
+            "immediate": "1111111111111100"
+        },
+        "error": ""
+    },
+    "17": {
+        "address": 68,
+        "label": "Br4",
+        "type": "I",
+        "assembly": {
+            "opcode": "blt",
+            "rs": "x5",
+            "rt": "x6",
+            "immediate": "Br3"
+        },
+        "binary": {
+            "opcode": "001000",
+            "rs": "00101",
+            "rt": "00110",
+            "immediate": "1111111111111101"
+        },
+        "error": ""
+    },
+    "18": {
+        "address": 72,
+        "label": "Jump",
+        "type": "J",
+        "assembly": {
+            "opcode": "j",
+            "immediate": "R_type"
+        },
+        "binary": {
+            "opcode": "000110",
+            "immediate": "00000000000000000000000000"
+        },
+        "error": ""
+    }
+}
