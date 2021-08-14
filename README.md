@@ -38,7 +38,7 @@ python(3) main.py -i <InputFile> -o <OutputFile> (Optional: -a <AddressOffset> -
 
 ## Notes
 
-This is a support application to generate Binary code from MIPS-Assembly test-programs for the Pipelined MIPS Microprocessor (Verilog) that can be found at GitHub [Pipelined MIPS Microprocessor](https://github.com/kamiljaved98/mips-pipelined).
+This is a support application to generate Binary code from MIPS-Assembly test-programs for the Pipelined MIPS Microprocessor (Verilog) that can be found at [Pipelined MIPS Microprocessor](https://github.com/kamiljaved98/mips-pipelined).
 
 ---
 
