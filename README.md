@@ -43,4 +43,4 @@ This is a support application to generate Binary code from MIPS-Assembly test-pr
 ---
 
 > [kamiljaved.pythonanywhere.com](https://kamiljaved.pythonanywhere.com/) &nbsp;&middot;&nbsp;
-> GitHub [@kamiljaved98](https://github.com/kamiljaved98)
+> GitHub [@kamiljaved](https://github.com/kamiljaved)
